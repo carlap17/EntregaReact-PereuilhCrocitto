@@ -40,14 +40,22 @@ navbar-item {
   width: 100%;
 }
 
-img {
-  width: 23px;
-  height: 23px;
-  padding: 1px;
+.logo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
 }
 
 .cart {
   padding-bottom: 5px;
+  align-items: center;
+  font-size: 18px;
+}
+
+.cart img {
+  width: 22px;
+  height: 22px;
+
 }
 
 @keyframes App-logo-spin {
