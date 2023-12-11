@@ -1,4 +1,5 @@
 import cart from "./assets/cart-check-fill.svg";
+
 const CartWidget = () => {
     return (
         <div class="cart">
