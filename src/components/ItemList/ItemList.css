@@ -1,0 +1,12 @@
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    height: auto;
+    background-color: #ef6f8b;
+    border-radius: 1rem;
+    margin: 4% auto 7% auto;
+    padding: 1.5rem;
+    box-shadow: 0 0 12px #3d3d3d;
+}

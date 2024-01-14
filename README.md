@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Diva Nails Shop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bienvenido a la tienda de Diva Nails donde encontrarás una amplia selección de productos para embellecer tus uñas. Nuestra tienda está construida con React y utiliza Firebase Firestore para gestionar los datos. Además, hemos utilizado Bootstrap para garantizar un diseño elegante y receptivo.
 
-## Available Scripts
+## Contenido
 
-In the project directory, you can run:
+- [Capturas de Pantalla](#capturas-de-pantalla)
+- [Características](#características)
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Tecnologías Utilizadas](#tecnologías-utilizadas)
+- [Contribuciones](#contribuciones)
+- [Licencia](#licencia)
 
-### `npm start`
+## Capturas de Pantalla
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Captura de pantalla 1](./src/img/captura1.png)
+![Captura de pantalla 2](./src/img/captura2.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Características
 
-### `npm test`
+- Catálogo de productos de esmalte tradicional, semipermanente, accesorios y cabinas.
+- Interfaz de usuario intuitiva y atractiva.
+- Integración con Firebase Firestore para gestionar la base de datos.
+- Diseño receptivo gracias a Bootstrap.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Instalación
 
-### `npm run build`
+1. Clona el repositorio: `git clone https://github.com/tu-usuario/tu-repositorio.git`
+2. Instala las dependencias: `npm install`
+3. Configura las credenciales de Firebase en el archivo `.env`: [Consultar por credenciales]
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# 1.- Inicia la aplicación: npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+.Uso
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Explora la tienda, añade productos a tu carrito y disfruta de una experiencia de compra única.
+Tecnologías Utilizadas
 
-### `npm run eject`
+    React
+    Bootstrap
+    Firebase Firestore
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+.Contribuciones
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+¡Contribuciones son bienvenidas! Si encuentras algún problema o tienes alguna mejora, por favor abre un problema o envía una solicitud de extracción.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+.Licencia
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este proyecto está bajo la Licencia ©Creative Commons. Ver el archivo LICENSE.md para más detalles.

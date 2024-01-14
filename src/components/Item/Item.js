@@ -1,28 +1,21 @@
 import './Item.css'
 import { Link } from 'react-router-dom'
-import { Card, Button } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
+import React from 'react';
 
-const Item = ({id, name, img, price, stock}) => {
-
+const Item = ( {producto} ) => {
     return (
-        <article>
-            <Card flex-column style={{ width: '18rem'}}>
-                <Card.Img variant="top" src={img} alt={name} />
-
+            <Card className='CardItem'>
+                <Card.Img src={producto.imagen} alt={producto.name} />
                 <Card.Body>
-                    <Card.Title>{name}</Card.Title>
-
-                    <div>
-                    <Card.Subtitle className="mb-2 text-muted">${price}</Card.Subtitle>
-                    <Card.Text>Stock: {stock}</Card.Text>
-                    </div>
-
-                    <Link to={`/item/${id}`} className='Option'>
-                    Ver Detalles
-                    </Link>
+                    <Card.Text>
+                        <h5>{producto.name}</h5>
+                        <p>Precio: ${producto.price}</p>
+                        <p>Categoria: {producto.category}</p>
+                    </Card.Text>
+                    <Link to={`/item/${producto.id}`} className='Option'>Ver Detalles</Link>
                 </Card.Body>
             </Card>
-        </article>
     )
 }
 

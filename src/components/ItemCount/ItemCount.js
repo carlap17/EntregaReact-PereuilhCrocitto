@@ -1,38 +1,18 @@
 import './ItemCount.css'
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react';
 
-const ItemCount = ({stock, initial, onAdd}) => {
-    const [quantity, setQuantity] = useState(initial)
-
-    const increment = () => {
-        if(quantity < stock) {
-            setQuantity(quantity+1)
-        }
-    }
-
-    const decrement = () => {
-        if(quantity > 1) {
-            setQuantity(quantity - 1)
-        }
-    }
+const ItemCount = ({ cantidad, handleRestar, handleSumar, handleAgregar }) => {
 
     return (
-        <div className='Counter'>
-            <div className='Controls'>
-                <button className="Button" onClick={decrement}>-</button>
-                <h4 className='Number'>{quantity}</h4>
-                <button className="Button" onClick={increment}>+</button>
+        <div>
+            <div className="item-count">
+                <button onClick={handleRestar}>-</button>
+                <p>{cantidad}</p>
+                <button onClick={handleSumar}>+</button>
             </div>
-            <div className='footer'>
-                <button className="Button" onClick={() => onAdd(quantity)} disabled={!stock}>
-                    Agregar al carrito
-                </button>
-                <Link to={`/`} className="Option">Volver</Link>
-            </div>
+            <button className="agregar-al-carrito" onClick={handleAgregar}>Agregar al carrito</button>
         </div>
     )
-
 }
 
 export default ItemCount;
