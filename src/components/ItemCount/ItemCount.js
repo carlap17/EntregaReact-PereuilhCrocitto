@@ -4,7 +4,7 @@ import React from 'react';
 const ItemCount = ({ cantidad, handleRestar, handleSumar, handleAgregar }) => {
 
     return (
-        <div>
+        <div className='items'>
             <div className="item-count">
                 <button onClick={handleRestar}>-</button>
                 <p>{cantidad}</p>

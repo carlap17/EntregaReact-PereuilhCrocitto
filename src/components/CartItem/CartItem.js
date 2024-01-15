@@ -1,3 +1,4 @@
+import './CartItem.css';
 import {CartContext} from '../context/CartContext';
 import React from "react";
 import { useContext } from 'react'
@@ -7,7 +8,7 @@ const CartItem = ({ title, price, id, quantity }) => {
     const { removeItem } = useContext(CartContext)
 
     return (
-        <div className="text-white flex justify-around">
+        <div className="CardItem">
             <h2>{title}</h2>
             <p>Cantidad:{quantity}</p>
             <p>Subtotal:{price * quantity}</p>

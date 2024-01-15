@@ -1,0 +1,41 @@
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    height: auto;
+    background-color: #ef6f8b;
+    border-radius: 1rem;
+    margin: 4% auto 7% auto;
+    padding: 1.5rem;
+    box-shadow: 0 0 12px #3d3d3d;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.CardItem {
+    display: grid;
+    place-items: center;
+    width: 17rem;
+    height: 25rem;
+    margin: 5px;
+    box-shadow: 0 0 12px #3d3d3d;
+    border-radius: 1rem;
+    overflow: hidden;
+    padding: 5px;
+    background-color: #fcbac6;
+}
+
+.CardItem img {
+    width: 180px;
+    height: 180px;
+    border-radius: 2rem;
+    padding: .3125rem;
+}
+
+p {
+    margin: 0;
+}

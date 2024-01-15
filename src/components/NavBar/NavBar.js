@@ -21,7 +21,7 @@ const NavBar = () => {
                     <Nav.Link href="/">Home</Nav.Link>
                     <NavDropdown title="Categorías" id="navbarScrollingDropdown">
                         <NavDropdown.Item href="/category/Accesorios" className={({ isActive}) => isActive ? 'ActiveOption' : 'Option' }>Accesorios</NavDropdown.Item>
-                        <NavDropdown.Item href="/category/Cabinas" className={({ isActive}) => isActive ? 'ActiveOption' : 'Option' }>
+                        <NavDropdown.Item href="/category/Cabina" className={({ isActive}) => isActive ? 'ActiveOption' : 'Option' }>
                             Cabinas
                         </NavDropdown.Item>
                         <NavDropdown.Item href="/category/Semipermanente" className={({ isActive}) => isActive ? 'ActiveOption' : 'Option' }>

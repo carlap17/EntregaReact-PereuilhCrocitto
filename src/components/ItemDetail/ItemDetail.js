@@ -19,7 +19,7 @@ const ItemDetail = ({ item }) => {
     }
 
     return (
-        <article>
+        <article className='productos'>
             <Card className='CardItem'>
                 <Card.Img src={item.imagen} alt={item.name} />
 
@@ -27,12 +27,9 @@ const ItemDetail = ({ item }) => {
                     <Card.Title>{item.name}</Card.Title>
 
                     <div>
-                        <Card.Subtitle className="mb-2 text-muted"></Card.Subtitle>
-                        <Card.Text>Categoría: {item.category}</Card.Text>
                         <Card.Subtitle className="mb-2 text-muted">${item.price}</Card.Subtitle>
                         <Card.Text>Stock: {item.stock}</Card.Text>
                     </div>
-                </Card.Body>
 
                 <ItemCount
                     cantidad={cantidad}
@@ -40,6 +37,7 @@ const ItemDetail = ({ item }) => {
                     handleRestar={handleRestar}
                     handleAgregar={() => { agregarAlCarrito (item, cantidad) }}
                 />
+                </Card.Body>
             </Card>
         </article>
     )

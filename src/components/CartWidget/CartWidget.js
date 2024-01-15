@@ -1,3 +1,4 @@
+import './CartWidget.css';
 import React from "react";
 import cart from "./assets/cart-check-fill.svg";
 import { useContext } from 'react';
