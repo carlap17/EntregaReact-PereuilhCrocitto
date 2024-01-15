@@ -30,7 +30,7 @@ const Cart = () => {
                 {  
                     carrito.length > 0 ?
                     <>
-                        <div className='items'>
+                        <div className='CardItem'>
                             <h2>Precio total: ${ precioTotal() }</h2>
                             <button onClick={handleVaciar}>Vaciar</button>
                             <button><Link to="/checkout">Finalizar compra</Link></button>

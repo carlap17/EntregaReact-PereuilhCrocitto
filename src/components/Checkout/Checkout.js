@@ -1,3 +1,4 @@
+import './Checkout.css'
 import { useContext, useState } from "react";
 import { db } from "../../services/firebase/firebaseConfig";
 import { CartContext } from "../context/CartContext";
@@ -28,7 +29,7 @@ const Checkout = () => {
 
     if (pedidoId) {
         return (
-            <div className="container">
+            <div className="productos">
                 <h1 className="main-title">¡Muchas gracias por su compra!</h1>
                 <p>Su número de pedido es: {pedidoId}</p>
             </div>
@@ -36,13 +37,13 @@ const Checkout = () => {
     }
 
     return (
-        <div className="container">
+        <div className="productos">
             <h1 className="main-title">Finalizar compra</h1>
             <form className="formulario" onSubmit={handleSubmit(comprar)}>
     
-                <input type="text" placeholder="Ingresá tu nombre" {...register("nombre")} />
-                <input type="email" placeholder="Ingresá tu e-mail" {...register("email")} />
-                <input type="phone" placeholder="Ingresá tu teléfono" {...register("telefono")} />
+                <input type="text" placeholder="Ingrese su nombre" {...register("nombre")} />
+                <input type="email" placeholder="Ingrese su e-mail" {...register("email")} />
+                <input type="phone" placeholder="Ingrese su teléfono" {...register("telefono")} />
     
                 <button className="enviar" type="submit">Comprar</button>
     

@@ -42,4 +42,15 @@ button {
     border-radius: 0.5rem!important;
     font-size: 16px;
     margin-left: 5px;
+    margin-top: 4px;
+}
+
+.Option {
+    text-decoration: none;
+    color: white;
+}
+
+.card-body {
+    text-align: center;
+    padding: 3px;
 }
