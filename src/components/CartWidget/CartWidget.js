@@ -9,10 +9,12 @@ const CartWidget = () => {
     const { cantidadEnCarrito } = useContext(CartContext)
 
     return (
-        <Link to='/cart' className='CartWidget'>
-            <img className='CartImg' src={cart} alt='cart-widget'/>
-            { cantidadEnCarrito() }    
-        </Link>
+        <div>
+            <Link to='/cart' className='CartWidget'>
+                <img className='CartImg' src={cart} alt='cart-widget'/>
+                <span class="numero">{ cantidadEnCarrito() }</span>    
+            </Link>
+        </div>
     )
 }
 

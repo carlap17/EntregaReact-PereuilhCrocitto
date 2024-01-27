@@ -1,0 +1,18 @@
+.CartWidget {
+    padding: 2px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.CartImg {
+    width: 18px;
+    height: 18px;
+}
+
+.numero {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 3px;
+}
